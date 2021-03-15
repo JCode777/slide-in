@@ -1,0 +1,58 @@
+body {
+    background-color: darkolivegreen;
+    color: white;
+}
+
+h1 {
+/*     animation-duration: 5s;
+    animation-name: slideIn;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: 5s 5 alternate slideIn;
+}
+
+h2 {
+/*     animation-duration: 8s;
+    animation-name: slideIn;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: 8s 5 alternate slideIn;
+    color: black;
+}
+
+h3 {
+/*     animation-duration: 10s;
+    animation-name: slideIn;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: 10s 5 alternate slideIn;
+}
+
+div {
+/*     animation-duration: 13s;
+    animation-name: slideIn;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: 13s 5 alternate slideIn;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+@keyframes slideIn {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
